@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "appsyncpractice-20181106111008-authRole",
+            "UnauthRoleArn": "arn:aws:iam::239948887047:role/appsyncpractice-20181106111008-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::239948887047:role/appsyncpractice-20181106111008-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "appsyncpractice-20181106111008-deployment",
+            "UnauthRoleName": "appsyncpractice-20181106111008-unauthRole",
+            "StackName": "appsyncpractice-20181106111008",
+            "StackId": "arn:aws:cloudformation:us-west-2:239948887047:stack/appsyncpractice-20181106111008/93ba1e20-e1f7-11e8-a987-503aca41a0fd"
+        }
+    }
+}
