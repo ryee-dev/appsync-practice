@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import AWSAppSyncClient, { AUTH_TYPE } from "aws-appsync";
 import { ApolloProvider } from "react-apollo";
-import { Rehydrated } from "aws-appsync-react";
 
 import "./index.css";
 import App from "./App";
@@ -21,9 +20,7 @@ const client = new AWSAppSyncClient({
 
 ReactDOM.render(
   <ApolloProvider client={client}>
-    <Rehydrated>
-      <App />
-    </Rehydrated>
+    <App />
   </ApolloProvider>,
   document.getElementById("root")
 );
